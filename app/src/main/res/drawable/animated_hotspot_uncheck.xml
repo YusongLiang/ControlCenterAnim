@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_hotspot_checked">
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_hotspot_uncheck_path_main" />
+
+    <target
+        android:name="path_center"
+        android:animation="@animator/anim_hotspot_uncheck_path_center" />
+</animated-vector>

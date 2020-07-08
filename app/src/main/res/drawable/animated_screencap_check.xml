@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_screencap_unchecked">
+
+    <target
+        android:name="path_subline"
+        android:animation="@animator/anim_screencap_path_check" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_screencap_group_check" />
+</animated-vector>

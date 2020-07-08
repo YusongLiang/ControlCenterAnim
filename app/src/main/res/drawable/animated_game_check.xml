@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_game_unchecked">
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_game_check_group_main" />
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_game_check_path_main" />
+
+    <target
+        android:name="group_left"
+        android:animation="@animator/anim_game_check_group_left" />
+
+    <target
+        android:name="path_left"
+        android:animation="@animator/anim_game_check_path_left" />
+
+    <target
+        android:name="group_right"
+        android:animation="@animator/anim_game_check_group_right" />
+
+    <target
+        android:name="path_right"
+        android:animation="@animator/anim_game_check_path_right" />
+
+</animated-vector>

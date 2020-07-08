@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_dont_disturb_unchecked">
+
+    <target
+        android:name="path_not"
+        android:animation="@animator/anim_dont_disturb_check_path_not" />
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_dont_disturb_check_path_main" />
+
+    <target
+        android:name="group_not"
+        android:animation="@animator/anim_dont_disturb_check_group_not" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_dont_disturb_check_group_main" />
+
+</animated-vector>

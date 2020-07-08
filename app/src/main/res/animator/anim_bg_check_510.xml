@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="510"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/colorBgUnchecked"
+        android:valueTo="@color/colorBgChecked"
+        android:valueType="colorType" />
+    <objectAnimator
+        android:duration="510"
+        android:propertyName="strokeColor"
+        android:valueFrom="@color/colorBgStrokeUnchecked"
+        android:valueTo="@color/colorBgStrokeChecked"
+        android:valueType="colorType" />
+</set>

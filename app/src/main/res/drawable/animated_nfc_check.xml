@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_nfc_unchecked">
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_nfc_check_path_main" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_nfc_check_group_main" />
+
+</animated-vector>

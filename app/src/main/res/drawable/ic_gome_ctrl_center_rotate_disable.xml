@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="96.0"
+    android:viewportWidth="96.0">
+    <group
+        android:name="group_main"
+        android:pivotX="48"
+        android:pivotY="48">
+        <path
+            android:name="path_main"
+            android:pathData="M73.8,50.6l4.4,4.4c2.3,2.4 2.3,6.2 0,8.6L60.5,81.3c-2.3,2.3 -6.2,2.3 -8.5,0L15.7,44.9c-2.3,-2.3 -2.3,-6.2 0,-8.5l17.7,-17.7c2.3,-2.3 6.2,-2.3 8.5,0l5.4,5.4M12.1,58.3c0.6,5.8 3.1,11.5 7.5,16c4.8,4.8 11.1,7.4 17.4,7.6l-6.2,-9.3"
+            android:strokeColor="@color/colorPathUnchecked"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6" />
+        <group
+            android:name="group_lock"
+            android:pivotX="64"
+            android:pivotY="35">
+            <path
+                android:name="path_lock"
+                android:pathData="M78.2,44.2H59.8c-2.8,0 -5,-2.2 -5,-5v-9.3c0,-2.8 2.2,-5 5,-5h18.4c2.8,0 5,2.2 5,5v9.3C83.2,42 81,44.2 78.2,44.2zM59.7,24.1v-4.8c0,-5.2 4.3,-9.5 9.5,-9.5h0c5.2,0 9.5,4.3 9.5,9.5v4.8z"
+                android:strokeColor="@color/colorPathUnchecked"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:strokeWidth="6" />
+        </group>
+    </group>
+
+    <group
+        android:name="group_enable"
+        android:pivotX="48"
+        android:pivotY="48">
+        <path
+            android:name="path_enable"
+            android:pathData="M80.2,62.7L62.5,80.4c-2.3,2.3 -6.2,2.3 -8.5,0L17.7,44c-2.3,-2.3 -2.3,-6.2 0,-8.5l17.7,-17.7c2.3,-2.3 6.2,-2.3 8.5,0l36.3,36.3C82.5,56.5 82.5,60.3 80.2,62.7zM83,39.6c-0.6,-5.8 -3.1,-11.5 -7.5,-16c-4.8,-4.8 -11.1,-7.4 -17.4,-7.6l6.2,9.3M14.1,57.4c0.6,5.8 3.1,11.5 7.5,16c4.8,4.8 11.1,7.4 17.4,7.6l-6.2,-9.3"
+            android:strokeAlpha="0"
+            android:strokeColor="@color/colorPathChecked"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6" />
+    </group>
+</vector>

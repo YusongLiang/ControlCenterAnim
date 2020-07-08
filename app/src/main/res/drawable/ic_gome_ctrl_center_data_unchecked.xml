@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="96.0"
+    android:viewportWidth="96.0">
+    <group android:name="group_data_subline">
+        <path
+            android:pathData="M67.7,52.8L55.6,40.6v40.9c15.4,-3.3 27,-17.1 27,-33.5c0,-16.3 -11.4,-30 -26.7,-33.5M28.6,43.1l12.1,12.2V14.5c-15.4,3.3 -27,17.1 -27,33.5c0,16.3 11.4,30 26.7,33.5"
+            android:strokeColor="@color/colorPathUnchecked"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6" />
+    </group>
+    <group android:name="group_data_left">
+        <path
+            android:name="path_data_left_arc"
+            android:pathData="M40.7,14.5c-15.4,3.3 -27,17.1 -27,33.5c0,16.3 11.4,30 26.7,33.5"
+            android:strokeColor="@color/colorPathChecked"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6"
+            android:trimPathStart="1" />
+        <group android:name="group_left_arrow">
+            <path
+                android:name="path_data_left_arrow"
+                android:pathData="M28.6,43.1l12.1,12.2V14.5"
+                android:strokeAlpha="0"
+                android:strokeColor="@color/colorPathChecked"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:strokeWidth="6" />
+        </group>
+    </group>
+    <group android:name="group_data_right">
+        <path
+            android:name="path_data_right_arc"
+            android:pathData="M55.6,81.5c15.4,-3.3 27,-17.1 27,-33.5c0,-16.3 -11.4,-30 -26.7,-33.5"
+            android:strokeColor="@color/colorPathChecked"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6"
+            android:trimPathStart="1" />
+        <group android:name="group_right_arrow">
+            <path
+                android:name="path_data_right_arrow"
+                android:pathData="M67.7,52.8L55.6,40.6v40.9"
+                android:strokeAlpha="0"
+                android:strokeColor="@color/colorPathChecked"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:strokeWidth="6" />
+        </group>
+    </group>
+</vector>

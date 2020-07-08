@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_hotspot_unchecked">
+
+    <target
+        android:name="path_center"
+        android:animation="@animator/anim_hotspot_check_path_center" />
+
+    <target
+        android:name="path_inner"
+        android:animation="@animator/anim_hotspot_check_path_inner" />
+
+    <target
+        android:name="path_outer"
+        android:animation="@animator/anim_hotspot_check_path_outer" />
+
+    <target
+        android:name="group_inner"
+        android:animation="@animator/anim_hotspot_check_group_inner" />
+
+    <target
+        android:name="group_outer"
+        android:animation="@animator/anim_hotspot_check_group_outer" />
+</animated-vector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_rotate_disable">
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_rotate_check_group_main" />
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_rotate_check_path_main" />
+
+    <target
+        android:name="group_lock"
+        android:animation="@animator/anim_rotate_check_group_lock" />
+
+    <target
+        android:name="path_lock"
+        android:animation="@animator/anim_rotate_check_path_lock" />
+
+    <target
+        android:name="group_enable"
+        android:animation="@animator/anim_rotate_check_group_enable" />
+
+    <target
+        android:name="path_enable"
+        android:animation="@animator/anim_rotate_check_path_enable" />
+
+</animated-vector>

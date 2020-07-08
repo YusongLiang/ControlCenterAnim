@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_rotate_enable">
+
+    <target
+        android:name="path_enable"
+        android:animation="@animator/anim_rotate_uncheck_path_main" />
+
+    <target
+        android:name="path_disable"
+        android:animation="@animator/anim_rotate_uncheck_path_disable" />
+</animated-vector>

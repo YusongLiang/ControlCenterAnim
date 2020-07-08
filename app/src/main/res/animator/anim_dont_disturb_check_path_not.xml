@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator
+            android:duration="170"
+            android:propertyName="trimPathStart"
+            android:valueFrom="0"
+            android:valueTo="1"
+            android:valueType="floatType" />
+        <objectAnimator
+            android:duration="1"
+            android:propertyName="trimPathStart"
+            android:valueFrom="1"
+            android:valueTo="0"
+            android:valueType="floatType" />
+        <objectAnimator
+            android:duration="229"
+            android:propertyName="trimPathEnd"
+            android:valueFrom="0"
+            android:valueTo="1"
+            android:valueType="floatType" />
+    </set>
+    <objectAnimator
+        android:propertyName="strokeColor"
+        android:duration="170"
+        android:valueFrom="@color/colorPathUnchecked"
+        android:valueTo="@color/colorPathChecked"
+        android:valueType="colorType" />
+</set>

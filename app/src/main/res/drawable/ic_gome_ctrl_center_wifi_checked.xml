@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="96.0"
+    android:viewportWidth="96.0">
+    <path
+        android:name="path_wifi_main"
+        android:pathData="M27.1,51.5L48,78.8L84.1,30c-9.8,-8.2 -22.5,-13.2 -36.3,-13.2c-13.5,0
+        -25.9,4.8 -35.7,12.7l9.7,12.2c6.8,-5.5 15.4,-8.8 24.9,-8.8c7,0 13.5,1.8 19.2,5"
+        android:strokeColor="@color/colorPathChecked"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="6" />
+</vector>

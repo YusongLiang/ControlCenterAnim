@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_data_unchecked">
+
+    <target
+        android:name="path_data_right_arc"
+        android:animation="@animator/anim_data_check_arc" />
+
+    <target
+        android:name="path_data_left_arc"
+        android:animation="@animator/anim_data_check_arc" />
+
+    <target
+        android:name="path_data_right_arrow"
+        android:animation="@animator/anim_data_check_arrow_path" />
+
+    <target
+        android:name="path_data_left_arrow"
+        android:animation="@animator/anim_data_check_arrow_path" />
+
+    <target
+        android:name="group_left_arrow"
+        android:animation="@animator/anim_data_check_arrow_group_left" />
+
+    <target
+        android:name="group_right_arrow"
+        android:animation="@animator/anim_data_check_arrow_group_right" />
+</animated-vector>

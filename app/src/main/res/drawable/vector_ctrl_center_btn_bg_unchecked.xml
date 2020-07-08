@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+
+    <path
+        android:name="path_bg"
+        android:fillColor="@color/colorBgUnchecked"
+        android:pathData="M1.5,50
+        A48.5,48.5 0,0 1,98.5 50
+        A48.5,48.5 0,0 1,50 98.5
+        A48.5,48.5 0,0 1,1.5 50"
+        android:strokeColor="@color/colorBgStrokeUnchecked"
+        android:strokeWidth="3" />
+</vector>

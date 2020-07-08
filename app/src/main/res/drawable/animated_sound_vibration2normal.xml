@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_sound_vibration2">
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_sound_vibration2normal_path_main" />
+
+    <target
+        android:name="path_normal"
+        android:animation="@animator/anim_sound_vibration2normal_path_normal" />
+
+    <target
+        android:name="path_wave"
+        android:animation="@animator/anim_sound_vibration2normal_path_wave" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_sound_vibration2normal_group_main" />
+
+    <target
+        android:name="group_normal"
+        android:animation="@animator/anim_sound_vibration2normal_group_normal" />
+
+    <target
+        android:name="group_wave"
+        android:animation="@animator/anim_sound_vibration2normal_group_wave" />
+</animated-vector>

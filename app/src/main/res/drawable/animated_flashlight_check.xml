@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_flashlight_unchecked">
+
+    <target
+        android:name="path_left"
+        android:animation="@animator/anim_flashlight_check_path_light" />
+
+    <target
+        android:name="path_middle"
+        android:animation="@animator/anim_flashlight_check_path_light" />
+
+    <target
+        android:name="path_right"
+        android:animation="@animator/anim_flashlight_check_path_light" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_flashlight_check_group" />
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_flashlight_check_path_main" />
+
+</animated-vector>

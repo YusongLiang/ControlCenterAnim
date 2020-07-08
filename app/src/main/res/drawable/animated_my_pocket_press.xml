@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_my_pocket">
+
+    <target
+        android:name="path_ghost"
+        android:animation="@animator/anim_my_pocket_press_path_ghost" />
+
+    <target
+        android:name="path_star"
+        android:animation="@animator/anim_my_pocket_press_path_star" />
+
+    <target
+        android:name="group_star"
+        android:animation="@animator/anim_my_pocket_press_group_star" />
+
+</animated-vector>

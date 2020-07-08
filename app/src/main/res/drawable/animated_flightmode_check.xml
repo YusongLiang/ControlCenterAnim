@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_gome_ctrl_center_flightmode_unchecked">
+
+    <target
+        android:name="path_main"
+        android:animation="@animator/anim_flightmode_check_path_main" />
+
+    <target
+        android:name="path_ghost"
+        android:animation="@animator/anim_flightmode_check_path_ghost" />
+
+    <target
+        android:name="group_main"
+        android:animation="@animator/anim_flightmode_check_group_main" />
+
+    <target
+        android:name="group_ghost"
+        android:animation="@animator/anim_flightmode_check_group_ghost" />
+
+</animated-vector>
